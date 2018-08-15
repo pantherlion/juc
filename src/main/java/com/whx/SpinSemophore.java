@@ -10,6 +10,7 @@ import java.lang.reflect.Field;
 public class SpinSemophore {
     private volatile int permit=0;
     private static Unsafe UNSAFE;
+
     private static long permitOffset=0;
     private int count=0;
 
@@ -20,6 +21,7 @@ public class SpinSemophore {
     public SpinSemophore(int count){
         this.count=count;
         this.permit=count;
+
     }
 
     static {
