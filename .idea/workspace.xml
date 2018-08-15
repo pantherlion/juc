@@ -4,14 +4,17 @@
     <bookmark url="file://$PROJECT_DIR$/../rxJava/pom.xml" line="49" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="f73ec743-6627-44c7-9842-e650a4892184" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../rxJava/.gitignore" afterDir="false" />
+    <list default="true" readonly="true" id="f73ec743-6627-44c7-9842-e650a4892184" name="Default" comment="第二次提交">
       <change beforePath="$PROJECT_DIR$/../rxJava/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rxJava/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rxJava/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rxJava/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rxJava/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rxJava/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rxJava/rxJava.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rxJava/src/main/java/com/whx/SpinSemophore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rxJava/src/main/java/com/whx/SpinSemophore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rxJava/src/main/java/com/whx/SpinLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rxJava/src/main/java/com/whx/SpinSemophore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rxJava/src/main/java/com/whx/Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rxJava/target/classes/com/whx/SpinLock.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rxJava/target/classes/com/whx/SpinSemophore.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rxJava/target/classes/com/whx/Test.class" beforeDir="false" />
@@ -31,93 +34,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../rxJava/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../rxJava/src/main/java/com/whx/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="190">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpinSemophore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../rxJava/src/main/java/com/whx/SpinSemophore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../rxJava/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpinLock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../rxJava/src/main/java/com/whx/SpinLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/jdk1.8/src.zip!/java/lang/Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30723">
-              <caret line="1700" column="19" selection-start-line="1700" selection-start-column="19" selection-end-line="1700" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReentrantLock.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/jdk1.8/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2280">
-              <caret line="154" column="39" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="39" />
-              <folding>
-                <element signature="e#8176#8177#0" expanded="true" />
-                <element signature="e#8216#8217#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/jdk1.8/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13205">
-              <caret line="738" column="6" selection-start-line="738" selection-start-column="6" selection-end-line="738" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LockSupport.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/jdk1.8/src.zip!/java/util/concurrent/locks/LockSupport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3458">
-              <caret line="215" column="26" selection-start-line="215" selection-start-column="26" selection-end-line="215" selection-end-column="26" />
+            <state relative-caret-position="114">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -162,8 +92,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/whx/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/whx/SpinSemophore.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/whx/SpinSemophore.java" />
-        <option value="$PROJECT_DIR$/../rxJava/src/main/java/com/whx/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/whx/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/../rxJava/.gitignore" />
+        <option value="$PROJECT_DIR$/../rxJava/src/main/java/com/whx/Test.java" />
       </list>
     </option>
   </component>
@@ -201,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -215,10 +146,32 @@
               <item name="rxJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rxJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rxJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rxJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rxJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rxJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rxJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whx" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -232,7 +185,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -384,15 +337,26 @@
       <workItem from="1534295909908" duration="5266000" />
       <workItem from="1534307778587" duration="9112000" />
       <workItem from="1534317195654" duration="1006000" />
-      <workItem from="1534318236321" duration="1955000" />
+      <workItem from="1534318236321" duration="2981000" />
+      <workItem from="1534322387177" duration="170000" />
+      <workItem from="1534322586791" duration="837000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1534320932465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534320932465</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64977000" />
+    <option name="totallyTimeSpent" value="67010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -402,9 +366,9 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005208" side_tool="true" weight="0.5573248" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.2337043" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.2337043" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.32857144" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.42356688" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4228935" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26647145" />
@@ -457,9 +421,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -726,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rxJava/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava2/rxjava/2.1.0/rxjava-2.1.0.jar!/io/reactivex/Observable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -807,9 +771,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../rxJava/src/main/java/com/whx/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/../rxJava/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../rxJava/src/main/java/com/whx/SpinLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
+        <state relative-caret-position="541">
           <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -817,23 +789,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rxJava/src/main/java/com/whx/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rxJava/src/main/java/com/whx/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../rxJava/src/main/java/com/whx/SpinSemophore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="123">
           <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -843,8 +801,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../rxJava/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rxJava/src/main/java/com/whx/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>

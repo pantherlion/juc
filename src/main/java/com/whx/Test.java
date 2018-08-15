@@ -17,6 +17,8 @@ public class Test {
                 finally {
                     try {
                         lock.unlock();
+
+
                         lock.unlock();
                     } catch (Exception e) {
                         e.printStackTrace();
