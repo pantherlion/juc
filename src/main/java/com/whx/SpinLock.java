@@ -54,6 +54,8 @@ public class SpinLock {
     *   unclock是单线程运行，不需要竞争
      */
     public void unlock() throws Exception {
+
+
         if(owner!=Thread.currentThread()){
             throw  new Exception("illegal status");
         }
